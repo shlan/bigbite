@@ -1,0 +1,22 @@
+{
+  "name": "bigbite",
+  "version": "1.0.0",
+  "description": "COGS 187B Project.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maanshamoon/bigbite.git"
+  },
+  "author": "Madeline Hsia, Derek Lee, Deborah Lan, Maan Shamoon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maanshamoon/bigbite/issues"
+  },
+  "homepage": "https://github.com/maanshamoon/bigbite#readme",
+  "dependencies": {
+    "express": "^4.14.1"
+  }
+}
