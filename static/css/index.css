@@ -1,4 +1,96 @@
 html, body{
 	margin: auto;
 	width: 100%;
+	background-color: #e6e6e6;
+}
+
+.container{
+	margin: auto;
+	background-color: #fff;
+}
+
+.nav-bar{
+	margin: auto;
+	padding: 30px;
+}
+
+.nav-bar a{
+	text-decoration: none;
+}
+
+.nav-link{
+	margin-right: 50px;
+	font-size: 24px;
+	color: #000;
+
+}
+
+.nav-link-active{
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	border-bottom-color: #e5462f;
+}
+
+.header-text{
+	text-align: center;
+	font-family: 'Indie Flower', cursive;
+	font-size: 30px;
+}
+
+.side-lines {
+  position: relative;
+  text-align: center;
+  font-size: 24px;
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.side-lines span {
+	background: #fff;
+	padding: 0 15px;
+	position: relative;
+	z-index: 1;
+}
+
+.side-lines:before {
+	position: absolute;
+	background: #e5462f;
+	content: "";
+	display: block;
+	height: 3px;
+	top: 50%;
+	width: 100%;
+}
+
+.location{
+	text-align: center;
+	margin-top: 20px;
+
+}
+
+.map{
+	margin: auto;
+	display: inline-block;
+	margin-right: 30px;
+}
+
+.address{
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+	padding: 10px;
+	width: 400px;
+	font-size: 20px;
+}
+
+.delivery-information{
+	text-align: center;
+	margin-top: 20px;
+}
+
+.delivery{
+	text-align: center;
+	font-size: 18px;
+	font-family: 'Indie Flower', cursive;
 }
