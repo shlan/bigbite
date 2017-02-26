@@ -91,6 +91,24 @@ html, body{
 
 .delivery{
 	text-align: center;
-	font-size: 18px;
+	font-size: 28px;
 	font-family: 'Indie Flower', cursive;
+}
+
+
+
+.find-us-online{
+	text-align: center;
+	margin-top: 20px;
+}
+
+.review{
+	display: inline-block;
+	vertical-align: top;
+	width: 400px;
+	margin-right: 30px;
+}
+.instagram{
+	display: inline-block;
+	width: 400px;
 }
