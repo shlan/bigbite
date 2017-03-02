@@ -22,7 +22,7 @@ body{
 
 .mobile-header{
 	width: 100%;
-	visibility: none;
+	visibility: hidden;
 	margin-top: 10px;
 }
 
