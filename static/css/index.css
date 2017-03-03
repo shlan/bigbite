@@ -234,3 +234,16 @@ $( document ).ready(function() {
 	width: 400px;
 	text-align: center;
 }
+
+/* MENU CSS */
+
+.sandwiches{
+	margin-top: 30px;
+}
+.sandwich{
+	text-align: center;
+	margin-top: 30px;
+}
+.sandwich img{
+	width: 100%;
+}

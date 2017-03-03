@@ -1,0 +1,234 @@
+{   
+    "menu_sandwich_cold": [
+        
+        {
+            "id": "",
+            "title": "Big Bite Special",
+            "image": "1bigbite.jpg",
+            "description": "Turkey, avocado, Swiss cheese.",
+            "price": "5.99"
+        },
+        {
+            "id": "",
+            "title": "California",
+            "image": "2california.jpg",
+            "description": "Turkey, bacon, avocado, Swiss cheese.",
+            "price": "6.45"
+        },
+        {
+            "id": "",
+            "title": "The Club",
+            "image": "3club.jpg",
+            "description": "Ham, turkey, cheddar cheese, and bacon.",
+            "price": "6.45"
+
+        },
+        {
+            "id": "",
+            "title": "The Poineer Special",
+            "image": "1pioneer.jpg",
+            "description": "Roast beef, salami, pepper jack cheese. ",
+            "price": "5.99"            
+        },
+        {
+            "id": "",
+            "title": "The Italian Sub",
+            "image": "5italian.jpg",
+            "description": "Mortadela, salami, provolone cheese. ",
+            "price": "5.99"            
+        },
+        {
+            "id": "",
+            "title": "Vegetrian",
+            "image": "6vegi.jpg",
+            "description": "Avocado, cheddar, Swiss, pepper jack cheese. ",
+            "price": "5.99"            
+        },  
+        {
+            "id": "",
+            "title": "Tuna Salad",
+            "image": "7tuna.jpg",
+            "description": "Classic tuna salad. ",
+            "price": "5.99"            
+        },    
+        {
+            "id": "",
+            "title": "Egg Salad",
+            "image": "8eggsalad.jpg",
+            "description": "Classic egg salad. ",
+            "price": "5.99"            
+        }    
+    ],
+
+    "menu_sandwich_hot": [
+        {
+            "id": "",
+            "title": "Big Boy Special",
+            "image": "9bigboy.jpg",
+            "description": "Ham, pastrami, Swiss cheese.",
+            "price": "5.99"            
+        },    
+        {
+            "id": "",
+            "title": "Santa Fe Chicken",
+            "image": "10santa-fe-chicken.jpg",
+            "description": "Grilled chicken, provolone cheese, Ortega chili.",
+            "price": "5.99"            
+        },
+        {
+            "id": "",
+            "title": "Reuben",
+            "image": "11reuben.jpg",
+            "description": "Pastrami, sauerkraut, Swiss. Thousand island, dijon mustard, pickles.",
+            "price": "5.99"            
+        },                
+        {
+            "id": "",
+            "title": "The Meatball",
+            "image": "12meatball.jpg",
+            "description": "Meat ball with provolone cheese.",
+            "price": "5.99"            
+        },       
+        {
+            "id": "",
+            "title": "BBQ Special",
+            "image": "13BBQ.jpg",
+            "description": "Choice of chicken, roast beef, or turkey.",
+            "price": "5.99"            
+        },                
+        {
+            "id": "",
+            "title": "The BLT",
+            "image": "14BLT.jpg",
+            "description": "Bacon, lettuce, tomato, with mayo.",
+            "price": "5.99"            
+        }             
+    ],
+
+    "breakfast": [
+        {
+            "id": "",
+            "title": "Bagel with Cream",
+            "image": "DSC_8323.jpg",
+            "description": " ",
+            "price": "2.75"
+        },
+        {
+            "id": "",
+            "title": "Bagel with Eggs and Bacon",
+            "description": "",
+            "image": "2brackfastbegel.jpg",
+            "price": "4.99"
+
+        },
+        {
+            "id": "",
+            "title": "Croissant",
+            "image": "DSC_8335.jpg",
+            "description": "",
+            "price": "4.99"
+
+        },
+         {
+            "id": "",
+            "title": "English Muffin",
+            "image": "1muffen.jpg",
+            "description": " ",
+            "price": "3.49"
+
+        },  
+         {
+            "id": "",
+            "title": "Breakfast Burrito",
+            "image": "1muffen.jpg",
+            "description": "With egg and cheese and potato and choice of ham, sausage, or bacon.",
+            "price": "5.99"
+
+        }                   
+    ],
+
+    "soup_and_salad": [
+        {
+            "id": "",
+            "title": "Regular Green Salad",
+            "image": "DSC_8323.jpg",
+            "description": " ",
+            "price": "4.99"
+        },
+        {
+            "id": "",
+            "title": "Chef Salad",
+            "image": "2brackfastbegel.jpg",
+            "description": "Cheddar cheese, egg, bacon, and ham. ",
+            "price": "6.99"
+
+        },
+        {
+            "id": "",
+            "title": "Grilled Chicken Salad",
+            "image": "DSC_8335.jpg",
+            "description": " ",
+            "price": "5.99"
+
+        },
+        {
+            "id": "",
+            "title": "Greek Salad",
+            "image": "1muffen.jpg",
+            "description": "Salad with feta cheese. ",
+            "price": "5.99"
+
+        },
+        {
+            "id": "",
+            "title": "Tuna Salad",
+            "image": "1muffen.jpg",
+            "description": " ",
+            "price": "5.99"
+        },
+        {
+            "id": "",
+            "title": "Soup of The Day",
+            "image": "1muffen.jpg",
+            "description": " ",
+            "price": "3.49"
+        }             
+
+     ],
+
+    "sides_and_extras": [
+         {
+            "id": "",
+            "title": "Dirty Chips",
+            "image": "",
+            "description": " ",
+            "price": "0.99"
+
+        },  
+        {
+            "id": "",
+            "title": "Potato Salad",
+            "image": "",
+            "description": " ",
+            "price": "1.49"
+        },
+        {
+            "id": "",
+            "title": "Macaroni Salad",
+            "image": "",
+            "description": " ",
+            "price": "1.49"
+
+        },
+        {
+            "id": "",
+            "title": "Deviled Eggs",
+            "image": "",
+            "description": " ",
+            "price": "1.49"
+
+        }
+
+    ]
+
+}
