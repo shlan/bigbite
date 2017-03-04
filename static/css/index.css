@@ -33,7 +33,6 @@ body{
 
 .nav-bar{
 	width: 100%;
-	margin-top: 0px;
 	position: fixed;
 	font-size:12px;
 	letter-spacing:2px;
@@ -133,11 +132,9 @@ body{
 .location{
 	text-align: center;
 	margin-top: 20px;
-
 }
 
 .map{
-	margin: auto;
 	width: 400px;
 	display: inline-block;
 	margin-right: 10px;
@@ -179,8 +176,6 @@ body{
 	font-family: 'Indie Flower', cursive;
 }
 
-
-
 .find-us-online{
 	text-align: center;
 	margin-top: 20px;
@@ -218,9 +213,11 @@ body{
 }
 
 /* FOOTER */
-
 .footer{
-	margin-top: 50px;
+	color: #FFF;
+	background-color: #3c3c3c;
+	text-align: center;
+	margin: auto;
 
 }
 .footer-left{
@@ -247,14 +244,14 @@ body{
 }
 
 /* MENU CSS */
-
 .sandwiches{
 	text-align: center;
 	margin-top: 30px;
 }
+
 .sandwich{
 
-	width: 320px;
+	width: 400px;
 	margin-right: 10px;
 	margin-left: 10px;
 	vertical-align: top;
@@ -307,4 +304,36 @@ body{
 .sides_and_extras{
 	text-align: center;
 	margin-top: 30px;
+}
+
+/* ABOUT US PAGE */
+
+.about{
+	text-align: center;
+}
+
+.about img{
+	width: 300px;
+}
+
+.about-left{
+	vertical-align: top;
+	display: inline-block;
+}
+
+.about-right{
+	vertical-align: top;
+	display: inline-block;
+}
+
+/* CONTACT PAGE PAGE */
+
+.contact{
+	margin: auto;
+	text-align: middle;
+}
+
+.contact-form{
+	margin: auto;
+	width: 400px;
 }

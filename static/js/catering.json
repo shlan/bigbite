@@ -1,0 +1,180 @@
+{
+    "foot_6": [
+        {
+            "id": "",
+            "title": "6-Foot Giant Sandwiches",
+            "image": "6foot.jpg",
+            "description":"Designed to fulfuill any sized appetite! Served with choice of meat or cheese, lettuce, tomato, onion, mayo, and mustard.",
+            "serves": "Serves: 14-26 people",
+            "price": "79.99"
+        }
+    ],
+
+    "sandwich_wraps_platters": [
+        
+        {
+            "id": "",
+            "title": "Sandwich Platter(18inch)",
+            "image": "sandwich1.jpg",
+            "description": "Twenty-one 3in rolls. Your choice of ham, hard salami, turkey, roast beef, tuna. Served with your choice of swiss, cheddar, provolone, pepper jack, or mozzarella.",
+            "serves": "Serves: 13-18 people",
+            "price": "47.99",
+            "special": "Smaller size available"
+        },
+        {
+            "id": "",
+            "title": "Wraps Platter(Spinach or Spicy Tomato)",
+            "image": "wraps.jpg",
+            "description": "Your choice of ham, hard salami, turkey, roast beef, tuna. Served with your choice of cheddar, provolone, or swiss cheese. Lettuce, tomato, mayo, and mustard included.",
+            "serves": "Serves: 18-24 people",
+            "price": "58.99"
+        }
+    ],
+
+    "lunch_boxes": [
+        {
+            "id": "",
+            "title": "Basic Box",
+            "image": "",
+            "description": "Great for smaller parties and meetings or parties with BIG appetites. 4-5inch rolls served with your choice of ham, turkey, hard salami, roast beef, and cheese. Also included per box: Bag of potato chips and a canned soda.",
+            "price": "6.99/box"
+        },
+        {
+            "id": "",
+            "title": "Deluxe Box",
+            "image": "",
+            "description": "Your choice of white, wheat, sourdough, or rye bread. Your choice of ham, turkey, hard salami, or roast beef. Served with your choice of cheddar, provolone, or swiss cheese. Lettuce, tomato, mayo, and mustard included. Also included per box: Small side of potato salad, macaroni salad, or coleslaw. Bag of potato chips, cookie, and a canned soda.",
+            "price": "8.49/box"
+        },
+        {
+            "id": "",
+            "title": "Premium San Diego Beach Box",
+            "image": "",
+            "description": "A large croissant loaded with your choice of ham, turkey, hard salami, or roast beef. Lettuce, tomato, mayo, and mustard included. Also included per box: A side of hummus, bottle of water or a canned soda, bag of potato chips, cookie, and a side of caesar salad with Italian dressing.",
+            "price": "11.99/box"
+        },
+        {
+            "id": "",
+            "title": "Executive Box",
+            "image": "",
+            "description": "Your choice of bread (white, wheat, sourdough, rye) or wrap (spinach, spicy tomato). Any special from the menu (see attached menu), a side of Greek salad, your choice between macaroni salad, potato salad, or coleslaw, bag of potato chips, candy, cookie, and a canned sooda.",
+            "price": "12.99/box"
+        }
+    ],
+
+    "breakfast_platters": [
+        
+        {
+            "id": "",
+            "title": "Bagel Platter",
+            "image": "bagelplatter.jpg",
+            "description": "Your choice between plain, jalapeno, cinnamon raisin, onion, or everythign bagels.",
+            "serves": "Serves: 14-22 people",
+            "price": "34.99",
+            "special": "Smaller size available. Packages of cream cheese included, butter & jellies also available."
+        },
+        {
+            "id": "",
+            "title": "Breakfast Box",
+            "image": "",
+            "description": "A mini croissant loaded with scrambled eggs, cheese, and your choice of ham, sausage, or bacon. also included: A side of fruit (apple or banana), plain or flavor yogurt, water bottle or can of soda, and your choice between a muffin or a cookie.",
+            "serves": "",
+            "price": "8.99/box"
+        },
+        {
+            "id": "",
+            "title": "Croissant Platter",
+            "image": "croissantplatter.jpg",
+            "description": "Hard boiled egg, cheese, and ham with croissants.",
+            "serves": "Serves: 15-20 people",
+            "price": "49.99",
+            "special": "Smaller size available."
+
+        },
+        {
+            "id": "",
+            "title": "Pastries Platter",
+            "image": "pastries.jpg",
+            "description": "Your choice between freshly made raspberry twists, nutella twists, strawberry puffs, or cinnamon rolls.",
+            "serves": "Serves: 25-35 people",
+            "price": "29.99",
+            "special": "Smaller size available."
+        },
+        {
+            "id": "",
+            "title": "Fruit Platter",
+            "image": "fruitplatter.jpg",
+            "description": "A variety of seasonal fruits to give you an extra boost of energy.",
+            "serves": "Serves: 22-32 people",
+            "price": "49.99",
+            "special": "Smaller size available."
+        }    
+    ],
+
+    "Party_Platters": [
+        {
+            "id": "",
+            "title": "International Cheese Platter (18inch)",
+            "image": "cheese.jpg",
+            "description": "Crackers served with your choice of swiss, cheddar, provolone, pepper jack, or mozzarella.",
+            "serves": "Serves: 20-28 people",
+            "price": "49.99"
+        },
+        {
+            "id":"",
+            "title": "American Vitiate Meat Platter (18inch)",
+            "image": "meat.jpg",
+            "description": "Your choice of ham, hard salami, turkey, roast beef, and mortadela.",
+            "serves": "Serves 26-32 people",
+            "price": "59.99"
+        },
+        {
+            "id":"",
+            "title": "Vegetable Platter (18inch)",
+            "image": "vegetable.jpg",
+            "description": "Includes broccoli, cauliflower, baby carrots, celery sticks, cucumbers, green peppers, red peppers, creamy ranch dip, and grape tomatoes.",
+            "serves": "Serves 28-36 people",
+            "price": "47.99",
+            "special": "Smaller size available"
+        },
+        {
+            "id":"",
+            "title": "All trays include: Romaine lettuce, pepperoncinis, onion, tomato, and cucumbers. Choice of grilled chicken, greek, tuna, or caesar salad.",
+            "image": "",
+            "serves": "Serves 10-15 people",
+            "price": "29.99",
+            "special": "Macaroni salad, potato salad, pasta salad, and coleslaw available upon request."
+        }
+
+    ],
+
+    "Beverage_Packages": [
+        {
+            "id": "",
+            "title": "Air Pot Coffee Service",
+            "image": "",
+            "description": "Freshly brewed coffee.",
+            "serves": "Serves: 10-16 people",
+            "price": "14.99"
+        },
+        {
+            "id": "",
+            "title": "Bottle Water or Juice Service",
+            "image": "",
+            "description": "Your choice of water or juice served ice cold.",
+            "price": "1.79/person"
+        },
+        {
+            "id": "",
+            "title": "Soda Pop Service",
+            "image": "",
+            "description": "Your choice of 15-20oz bottles of Pepsi, Coca Cola, or 7 Up.",
+            "price": "2.49/person"
+        },
+        {
+            "special": "Energy drink and healthy juices available upon request. Hot food and soups available upon request."
+        }
+    ]
+
+
+}
