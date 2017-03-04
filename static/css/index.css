@@ -1,11 +1,8 @@
 html, body{
+	margin-top: 0px;
 	margin: auto;
 	width: 100%;
-	background-color: #e6e6e6;
-	 
 }
-
-
 
 body{
 	font-family: "Montserrat";
@@ -15,7 +12,9 @@ body{
 
     background-image: url("http://az616578.vo.msecnd.net/files/2016/10/17/636122739856255638-1137033243_Big-data-Exhaustive-review-pulls-together-evidence-on-food-groups-and-diet-related-disease.jpg");
     min-height: 100vh; 
-    
+
+    margin-top: 0px;
+
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -23,6 +22,7 @@ body{
 }
 
 .main{
+	margin-top: 0px;
 	background-color: #fff;
 	-webkit-box-shadow: 0px 0px 5px 2px rgba(102,105,107,1);
 	-moz-box-shadow: 0px 0px 5px 2px rgba(102,105,107,1);
@@ -90,6 +90,7 @@ body{
 	text-align: center;
 	font-family: 'Indie Flower', cursive;
 	font-size: 30px;
+	color: #fff;
 }
 
 .side-lines {
