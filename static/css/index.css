@@ -8,8 +8,18 @@ html, body{
 
 
 body{
-	background-image: url("../images/background.png");
 	font-family: "Montserrat";
+}
+
+.intro{
+
+    background-image: url("http://az616578.vo.msecnd.net/files/2016/10/17/636122739856255638-1137033243_Big-data-Exhaustive-review-pulls-together-evidence-on-food-groups-and-diet-related-disease.jpg");
+    min-height: 100vh; 
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .main{
@@ -53,23 +63,6 @@ body{
   .header-text{margin-top: 50px;}
   .mobile-header{visibility: visible;}
 }
-
-/*
-$( document ).ready(function() {      
-    var is_mobile = false;
-
-    if( $('#some-element').css('display')=='none') {
-        is_mobile = true;       
-    }
-
-    // now i can use is_mobile to run javascript conditionally
-
-    if (is_mobile == true) {
-        //Conditional script here
-    }
- });
-
-*/
 
 .nav-bar{
 	margin: auto;
