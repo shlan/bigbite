@@ -19,144 +19,170 @@
 
 <body>
 
-	<div class="">
-
-		<div class="intro">
+	<div class="intro">
 		
-			<!--mobile nav-->
-			<div class="mobile-header">
-				<span><img src="images/logo.png" width="80"></span>
-				<span class="burger-menu"><img src="images/menu.png" width="50"></span>
-			</div>
+		<!--mobile nav-->
+		<div class="mobile-header">
+			<span><img src="images/logo.png" width="80"></span>
+			<span class="burger-menu"><img src="images/menu.png" width="50"></span>
+		</div>
 
-			<div class="mobile-nav-bar">
-				<div class="mobile-nav-link nav-link-active"><a href="/">HOME</a></div>
-				<div class="mobile-nav-link"><a href="menu.html">MENU</a></div>
-				<div class="mobile-nav-link"><a href="catering.html">CATERING</a></div>
-				<div class="mobile-nav-link"><a href="about.html">ABOUT US</a></div>
-				<div class="mobile-nav-link"><a href="contact.html">CONTACT</a></div>
-			</div>
+		<div class="mobile-nav-bar">
+			<div class="mobile-nav-link nav-link-active"><a href="/">HOME</a></div>
+			<div class="mobile-nav-link"><a href="menu.html">MENU</a></div>
+			<div class="mobile-nav-link"><a href="catering.html">CATERING</a></div>
+			<div class="mobile-nav-link"><a href="about.html">ABOUT US</a></div>
+			<div class="mobile-nav-link"><a href="contact.html">CONTACT</a></div>
+		</div>
 
-			<!--regular nav nav-->
-			<div class="nav-bar">
-				<center>
-					<a href="/" class="nav-link"><img src="images/logo.png"></a>
-					<a href="/" class="nav-link nav-link-active">HOME</a>
-					<a href="menu.html" class="nav-link">MENU</a>
-					<a href="catering.html" class="nav-link">CATERING</a>
-					<a href="about.html" class="nav-link">ABOUT US</a>
-					<a href="contact.html" class="nav-link">CONTACT</a>
-				</center>
-			</div>
+		<!--regular nav nav-->
+		<div class="nav-bar nav-bar-background">
+			<a href="/" class="nav-link"><img src="images/logo.png"></a>
+			<a href="/" class="nav-link nav-link-active">HOME</a>
+			<a href="menu.html" class="nav-link">MENU</a>
+			<a href="catering.html" class="nav-link">CATERING</a>
+			<a href="about.html" class="nav-link">ABOUT US</a>
+			<a href="contact.html" class="nav-link">CONTACT</a>
+		</div>
 
-			<div class="header-text">
-				Big Bite Deli is a family owned deli in downtown El Cajon.<br> We source fresh ingredients daily from local farmers and butchers.
-			</div>
+		<div class="header-text">
+			<br><br><br><br><br><br><br>
+			Big Bite Deli is a family owned deli in downtown El Cajon.<br> We source fresh ingredients daily from local farmers and butchers.
+		</div>
 
-		</div><!-- end intro --> 
-
-		<div class="side-lines">
-			<span>WE CATER</span>
-
+		<div class="down-arrow">
+			<img src="images/down-arrow.png">
+		</div>
 			
+
+	</div><!-- end intro -->
+
+	<div class="scroll-to"><!-- KEEP THIS EMPTY --></div>
+
+	<br><br><br>
+
+	<div class="side-lines">
+		<span>WE CATER</span>
+	</div>
+
+	<!-- add catering content here --> 
+
+	<div class="side-lines">
+		<span>LOCATION</span>
+	</div>
+
+	<div class="location">
+
+		<div class="map">
+
+		<div id="map"></div>
+
+	    <script>
+	      function initMap() {
+	        var map = new google.maps.Map(document.getElementById('map'), {
+	          center: {lat: -34.397, lng: 150.644},
+	          scrollwheel: false,
+	          zoom: 8
+	        });
+	      }
+
+	    </script>
+	    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCSbd3hqyUPQEMpJ0laSxEun9RnpxATenU&callback=initMap"
+	    async defer></script>
+
+
+
+
+
+			<!--
+			<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:500px;width:600px;'><div id='gmap_canvas' style='height:500px;width:600px;'></div><div><small><a href="http://embedgooglemaps.com">embed google maps</a></small></div><div><small><a href="http://ironlinkdirectory.com/">add your link for free</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:15,center:new google.maps.LatLng(32.8148226,-116.9685814),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(32.8148226,-116.9685814)});infowindow = new google.maps.InfoWindow({content:'<strong>Big Bite Deli</strong><br>1444 Pioneer Way #6, El Cajon, CA 92020<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+			-->
+
 		</div>
 
-		<!-- add catering content here --> 
-
-		<div class="side-lines">
-			<span>LOCATION</span>
+		<div class="address">
+			<strong>Big Bite Deli</strong><br>
+			1444 Pioneer Way #6, El Cajon, CA 92020<br>
+			(619) 440-0937
+			<br><br>
+			<strong>Hours</strong><br>
+			MON - SUN<br>
+			7:30AM - 5:00PM
 		</div>
 
-		<div class="location">
-
-			<div class="map">
-				<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:300px;width:400px;'><div id='gmap_canvas' style='height:300px;width:400px;'></div><div><small><a href="http://embedgooglemaps.com">embed google maps</a></small></div><div><small><a href="http://ironlinkdirectory.com/">add your link for free</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:15,center:new google.maps.LatLng(32.8148226,-116.9685814),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(32.8148226,-116.9685814)});infowindow = new google.maps.InfoWindow({content:'<strong>Big Bite Deli</strong><br>1444 Pioneer Way #6, El Cajon, CA 92020<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
-			</div>
-
-			<div class="address">
-				<strong>Big Bite Deli</strong><br>
-				1444 Pioneer Way #6, El Cajon, CA 92020<br>
-				(619) 440-0937
-				<br><br>
-				<strong>Hours</strong><br>
-				MON - SUN<br>
-				7:30AM - 5:00PM
-			</div>
-
-		</div><!--End location div-->
+	</div><!--End location div-->
 
 
-		<div class="side-lines">
-			<span>DELIVERY INFORMATION</span>
+	<div class="side-lines">
+		<span>DELIVERY INFORMATION</span>
+	</div>
+
+	<div class="delivery">(We Deliver within 10 miles!)</div>
+
+	<div class="delivery-information">
+
+		<div class="delivery-information-left">
+			<span>Minimum Order: $20</span><br><br>
+			<span>Delivery Charge: FREE</span><br><br>
+			<span>Payment Options: All Major Cards</span>
 		</div>
 
-		<div class="delivery">(We Deliver within 10 miles!)</div>
+		<div class="delivery-information-right">
+			<strong>DELIVERY HOURS</strong><br><br>
+			<span>MON - SUN</span><br><br>
+			<span>8:30AM - 4:30PM</span>
 
-		<div class="delivery-information">
-
-			<div class="delivery-information-left">
-				<span>Minimum Order: $20</span><br><br>
-				<span>Delivery Charge: FREE</span><br><br>
-				<span>Payment Options: All Major Cards</span>
-			</div>
-
-			<div class="delivery-information-right">
-				<strong>DELIVERY HOURS</strong><br><br>
-				<span>MON - SUN</span><br><br>
-				<span>8:30AM - 4:30PM</span>
-
-			</div>
+		</div>
 		
-		</div>
+	</div>
 
-		<div class="side-lines">
-			<span>FIND US ONLINE</span>
-		</div>
+	<div class="side-lines">
+		<span>FIND US ONLINE</span>
+	</div>
 
-		<div class="find-us-online">
+	<div class="find-us-online">
 			
-			<div class="review" style="width: 400px;">
+		<div class="review" style="width: 400px;">
 
-				<span class="yelp-review" data-review-id="YT007j70I72dci3FBBWoKQ" data-hostname="www.yelp.com">Read <a href="https://www.yelp.com/user_details?userid=58I0CaxE4We_mkozJIeJiw" rel="nofollow noopener">Lupe J.</a>'s <a href="https://www.yelp.com/biz/big-bite-deli-el-cajon?hrid=YT007j70I72dci3FBBWoKQ" rel="nofollow noopener">review</a> of <a href="https://www.yelp.com/biz/B5ZaG80AWUO5yuUTEy-VlQ" rel="nofollow noopener">Big Bite Deli</a> on <a href="https://www.yelp.com" rel="nofollow noopener">Yelp</a><script async="async" src="https://www.yelp.com/embed/widgets.js" type="text/javascript"></script></span>
+			<span class="yelp-review" data-review-id="YT007j70I72dci3FBBWoKQ" data-hostname="www.yelp.com">Read <a href="https://www.yelp.com/user_details?userid=58I0CaxE4We_mkozJIeJiw" rel="nofollow noopener">Lupe J.</a>'s <a href="https://www.yelp.com/biz/big-bite-deli-el-cajon?hrid=YT007j70I72dci3FBBWoKQ" rel="nofollow noopener">review</a> of <a href="https://www.yelp.com/biz/B5ZaG80AWUO5yuUTEy-VlQ" rel="nofollow noopener">Big Bite Deli</a> on <a href="https://www.yelp.com" rel="nofollow noopener">Yelp</a><script async="async" src="https://www.yelp.com/embed/widgets.js" type="text/javascript"></script></span>
 
 				<!--<a href="https://www.yelp.com/biz/big-bite-deli-el-cajon" target="_blank"><img src="images/yelp.png" /></a>-->
 
-			</div>
-
-			<div class="instagram" style="width: 400px;">
-
-				<blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:400px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:37.5% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> </p></div></blockquote>
-				<script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
-			</div>
-
 		</div>
 
-		<div class="side-lines">
-			<span>SPECIALS TODAY</span>
+		<div class="instagram" style="width: 400px;">
+
+			<blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:400px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:37.5% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> </p></div></blockquote>
+			<script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
 		</div>
-
-		<div class="specials-today">
-
-			<div class="specials-information-left">
-				<strong>MONDAY</strong><br>
-				<span>The Big Bite</span><br>
-				<span>Turkey, Swiss, and Avocado.</span>
-				<span>With your choice of bread.</span>
-			</div>
-
-			<div class="specials-information-right">
-				<strong>DELIVERY HOURS</strong><br><br>
-				<span>MON - SUN</span><br><br>
-				<span>8:30AM - 4:30PM</span>
-
-			</div>
-		</div>
-
-		<br><br><br>
 
 	</div>
 
-	<div class="container footer">
+	<div class="side-lines">
+		<span>SPECIALS TODAY</span>
+	</div>
+
+	<div class="specials-today">
+
+		<div class="specials-information-left">
+			<strong>MONDAY</strong><br>
+			<span>The Big Bite</span><br>
+			<span>Turkey, Swiss, and Avocado.</span>
+			<span>With your choice of bread.</span>
+		</div>
+
+		<div class="specials-information-right">
+			<strong>DELIVERY HOURS</strong><br><br>
+			<span>MON - SUN</span><br><br>
+			<span>8:30AM - 4:30PM</span>
+
+		</div>
+	</div>
+
+	<br><br><br>
+
+
+	<div class="footer">
 
 		<div class="footer-left">
 

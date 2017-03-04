@@ -2,6 +2,7 @@ html, body{
 	margin-top: 0px;
 	margin: auto;
 	width: 100%;
+	background-color: #FFF;
 }
 
 body{
@@ -9,31 +10,50 @@ body{
 }
 
 .intro{
-
     background-image: url("http://az616578.vo.msecnd.net/files/2016/10/17/636122739856255638-1137033243_Big-data-Exhaustive-review-pulls-together-evidence-on-food-groups-and-diet-related-disease.jpg");
-    
-    min-height: 100vh;
-
+	background-size: cover;
     background-attachment: fixed;
     background-position: center;
+    min-height: 100vh;
     background-repeat: no-repeat;
-    background-size: cover;
 }
 
-.main{
-	background-color: #fff;
-	-webkit-box-shadow: 0px 0px 5px 2px rgba(102,105,107,1);
-	-moz-box-shadow: 0px 0px 5px 2px rgba(102,105,107,1);
-	box-shadow: 0px 0px 5px 2px rgba(102,105,107,1);
+.down-arrow{
+	width: 100%;
+	margin-bottom: 100px;
+	position: absolute;
+    bottom: 0;
+    text-align: center;
+    cursor: pointer;
 }
 
-.nav-bar {
+.down-arrow img{
+	width: 60px;
+}
+
+.nav-bar{
+	width: 100%;
+	margin-top: 0px;
+	position: fixed;
 	font-size:12px;
 	letter-spacing:2px;
+	z-index: 10;
+	margin: auto;
+	padding: 20px;
+	text-align: center;
 }
 
-.container{
+.nav-bar-background{
+	background-color: #FFF;
 
+	-webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+
+	-webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
 }
 
 .mobile-header{
@@ -61,11 +81,6 @@ body{
   .mobile-header{visibility: visible;}
 }
 
-.nav-bar{
-	margin: auto;
-	padding: 30px;
-}
-
 .nav-bar a{
 	text-decoration: none;
 }
@@ -74,7 +89,6 @@ body{
 	margin-right: 50px;
 	font-size: 24px;
 	color: #000;
-
 }
 
 .nav-link-active{
@@ -94,7 +108,7 @@ body{
   position: relative;
   text-align: center;
   font-size: 24px;
-  width: 80%;
+  width: 96%;
   margin: auto;
   margin-top: 30px;
 }
