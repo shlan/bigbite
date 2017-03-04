@@ -43,6 +43,7 @@ body{
 }
 
 .nav-bar-background{
+
 	background-color: #FFF;
 
 	-webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
@@ -57,28 +58,39 @@ body{
 
 .mobile-header{
 	width: 100%;
-	visibility: hidden;
+	padding: 20px;
+	position: fixed;
+
+	background-color: #FFF;
+	z-index: 10;
+
+	-webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
 }
 
 .mobile-nav-bar{
+	margin-top: 10px;
 	width: 100%;
-	visibility: none;
 }
 
 .burger-menu{
+
 	float: right;
 }
 
 .mobile-nav-link{
 	width: 100%;
-	padding: 5px;
+	padding: 7px;
 }
+
 
 @media only screen and (max-width: 760px){
   .nav-bar { display: none; }
-  .header-text{margin-top: 50px;}
   .mobile-header{visibility: visible;}
+  .mobile-nav-bar{visibility: visible;}
 }
+
 
 .nav-bar a{
 	text-decoration: none;
@@ -137,16 +149,12 @@ body{
 .map{
 	width: 400px;
 	display: inline-block;
-	margin-right: 10px;
-	margin-left: 10px;
 }
 
 .address{
 	display: inline-block;
 	vertical-align: top;
 	text-align: left;
-	margin-right: 10px;
-	margin-left: 10px;
 	width: 400px;
 	font-size: 20px;
 }
@@ -221,6 +229,7 @@ body{
 
 }
 .footer-left{
+	margin-top: 40px;
 	width: 400px;
 	display: inline-block;
 }
@@ -237,6 +246,7 @@ body{
 }
 
 .footer-right{
+	margin-top: 40px;
 	display: inline-block;
 	vertical-align: top;
 	width: 400px;

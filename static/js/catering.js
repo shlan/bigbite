@@ -1,10 +1,22 @@
 $(document).ready(function(){
 
-    $(".mobile-header").hide();
-    $(".mobile-nav-bar").hide();
+    if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+        $(".mobile-header").show();
+        $(".mobile-nav-bar").hide();
+    }
 
     $(".burger-menu").click(function(){
         $(".mobile-nav-bar").slideToggle("slow");
+    });
+
+    $(".down-arrow").click(function(e){
+
+        e.preventDefault();
+
+        $('html, body').animate({
+            scrollTop: $(".scroll-to").offset().top
+        }, 2000);
+        
     });
 
 	$.getJSON("js/catering.json", function(data){
