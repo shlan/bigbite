@@ -14,7 +14,7 @@
         
         {
             "id": "",
-            "title": "Sandwich Platter(18inch)",
+            "title": "Sandwich Platter - 18&#34",
             "image": "sandwich1.jpg",
             "description": "Twenty-one 3in rolls. Your choice of ham, hard salami, turkey, roast beef, tuna. Served with your choice of swiss, cheddar, provolone, pepper jack, or mozzarella.",
             "serves": "Serves: 13-18 people",
@@ -23,7 +23,7 @@
         },
         {
             "id": "",
-            "title": "Wraps Platter(Spinach or Spicy Tomato)",
+            "title": "Wraps Platter - Choice of Spinach or Spicy Tomato",
             "image": "wraps.jpg",
             "description": "Your choice of ham, hard salami, turkey, roast beef, tuna. Served with your choice of cheddar, provolone, or swiss cheese. Lettuce, tomato, mayo, and mustard included.",
             "serves": "Serves: 18-24 people",
@@ -114,7 +114,7 @@
     "Party_Platters": [
         {
             "id": "",
-            "title": "International Cheese Platter (18inch)",
+            "title": "International Cheese Platter - 18&#34",
             "image": "cheese.jpg",
             "description": "Crackers served with your choice of swiss, cheddar, provolone, pepper jack, or mozzarella.",
             "serves": "Serves: 20-28 people",
@@ -122,7 +122,7 @@
         },
         {
             "id":"",
-            "title": "American Vitiate Meat Platter (18inch)",
+            "title": "American Vitiate Meat Platter - 18&#34",
             "image": "meat.jpg",
             "description": "Your choice of ham, hard salami, turkey, roast beef, and mortadela.",
             "serves": "Serves 26-32 people",
@@ -130,7 +130,7 @@
         },
         {
             "id":"",
-            "title": "Vegetable Platter (18inch)",
+            "title": "Vegetable Platter - 18&#34",
             "image": "vegetable.jpg",
             "description": "Includes broccoli, cauliflower, baby carrots, celery sticks, cucumbers, green peppers, red peppers, creamy ranch dip, and grape tomatoes.",
             "serves": "Serves 28-36 people",
@@ -139,8 +139,9 @@
         },
         {
             "id":"",
-            "title": "All trays include: Romaine lettuce, pepperoncinis, onion, tomato, and cucumbers. Choice of grilled chicken, greek, tuna, or caesar salad.",
+            "title": "Salad Tray - Choice of Chicken, Greek, Tuna, or Caesar",
             "image": "saladtray.jpg",
+            "description": "All trays include: Romaine lettuce, pepperoncinis, onion, tomato, and cucumbers.",
             "serves": "Serves 10-15 people",
             "price": "29.99",
             "special": "Macaroni salad, potato salad, pasta salad, and coleslaw available upon request."
