@@ -120,6 +120,25 @@ span.highlight {
 	background:#fff;
 }
 
+
+.call-now {
+  position: relative;
+  text-align: center;
+  font-size: 24px;
+  width: 96%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.call-now span {
+	color:#e5462f;
+	background: #fff;
+	padding: 0 15px;
+	position: relative;
+	z-index: 1;
+	font-weight:bolder;
+}
+
 .side-lines {
   position: relative;
   text-align: center;
