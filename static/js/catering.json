@@ -35,28 +35,28 @@
         {
             "id": "",
             "title": "Basic Box",
-            "image": "basicbox.jpg",
+            "image": "",
             "description": "Great for smaller parties and meetings or parties with BIG appetites. 4-5inch rolls served with your choice of ham, turkey, hard salami, roast beef, and cheese. Also included per box: Bag of potato chips and a canned soda.",
             "price": "6.99/box"
         },
         {
             "id": "",
-            "title": "Deluxe Box",//
-            "image": "deluxebox.jpg",
+            "title": "Deluxe Box",
+            "image": "",
             "description": "Your choice of white, wheat, sourdough, or rye bread. Your choice of ham, turkey, hard salami, or roast beef. Served with your choice of cheddar, provolone, or swiss cheese. Lettuce, tomato, mayo, and mustard included. Also included per box: Small side of potato salad, macaroni salad, or coleslaw. Bag of potato chips, cookie, and a canned soda.",
             "price": "8.49/box"
         },
         {
             "id": "",
-            "title": "Premium San Diego Beach Box",//
-            "image": "premiumbox.jpg",
+            "title": "Premium San Diego Beach Box",
+            "image": "",
             "description": "A large croissant loaded with your choice of ham, turkey, hard salami, or roast beef. Lettuce, tomato, mayo, and mustard included. Also included per box: A side of hummus, bottle of water or a canned soda, bag of potato chips, cookie, and a side of caesar salad with Italian dressing.",
             "price": "11.99/box"
         },
         {
             "id": "",
-            "title": "Executive Box",//
-            "image": "executivebox.jpg",
+            "title": "Executive Box",
+            "image": "",
             "description": "Your choice of bread (white, wheat, sourdough, rye) or wrap (spinach, spicy tomato). Any special from the menu (see attached menu), a side of Greek salad, your choice between macaroni salad, potato salad, or coleslaw, bag of potato chips, candy, cookie, and a canned sooda.",
             "price": "12.99/box"
         }
@@ -76,7 +76,7 @@
         {
             "id": "",
             "title": "Breakfast Box",
-            "image": "breakfastbox.jpg",
+            "image": "",
             "description": "A mini croissant loaded with scrambled eggs, cheese, and your choice of ham, sausage, or bacon. also included: A side of fruit (apple or banana), plain or flavor yogurt, water bottle or can of soda, and your choice between a muffin or a cookie.",
             "serves": "",
             "price": "8.99/box"
@@ -139,9 +139,8 @@
         },
         {
             "id":"",
-            "title": "Salad Tray (Choice of Chicken, Tuna, Greek or Ceasar)",
-            "image": "saladtray.jpg",
-            "description": "All trays include: Romaine lettuce, pepperoncinis, onion, tomato, and cucumbers. Choice of grilled chicken, greek, tuna, or caesar salad.",
+            "title": "All trays include: Romaine lettuce, pepperoncinis, onion, tomato, and cucumbers. Choice of grilled chicken, greek, tuna, or caesar salad.",
+            "image": "",
             "serves": "Serves 10-15 people",
             "price": "29.99",
             "special": "Macaroni salad, potato salad, pasta salad, and coleslaw available upon request."
@@ -153,7 +152,7 @@
         {
             "id": "",
             "title": "Air Pot Coffee Service",
-            "image": "coffeeservice.jpg",
+            "image": "",
             "description": "Freshly brewed coffee.",
             "serves": "Serves: 10-16 people",
             "price": "14.99"
@@ -161,14 +160,14 @@
         {
             "id": "",
             "title": "Bottle Water or Juice Service",
-            "image": "juiceservice.jpg",
+            "image": "",
             "description": "Your choice of water or juice served ice cold.",
             "price": "1.79/person"
         },
         {
             "id": "",
             "title": "Soda Pop Service",
-            "image": "sodaservice.jpg",
+            "image": "",
             "description": "Your choice of 15-20oz bottles of Pepsi, Coca Cola, or 7 Up.",
             "price": "2.49/person"
         },

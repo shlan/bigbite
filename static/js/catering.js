@@ -1,38 +1,26 @@
 $(document).ready(function(){
 
-    if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
-        $(".mobile-header").show();
-        $(".mobile-nav-bar").hide();
-    }
+    $(".mobile-header").hide();
+    $(".mobile-nav-bar").hide();
 
     $(".burger-menu").click(function(){
         $(".mobile-nav-bar").slideToggle("slow");
     });
 
-    $(".down-arrow").click(function(e){
+    $.getJSON("js/catering.json", function(data){
 
-        e.preventDefault();
-
-        $('html, body').animate({
-            scrollTop: $(".scroll-to").offset().top
-        }, 2000);
-        
-    });
-
-	$.getJSON("js/catering.json", function(data){
-
-		//6_foot
+        //6_foot
         for(var i = 0; i < data.foot_6.length; i++){
 
-        	var sandwich = data.foot_6[i];
-        	var id = sandwich.id;
-        	var description = sandwich.description;
-        	var image = sandwich.image;
-        	var price = sandwich.price;
-        	var title = sandwich.title;
+            var sandwich = data.foot_6[i];
+            var id = sandwich.id;
+            var description = sandwich.description;
+            var image = sandwich.image;
+            var price = sandwich.price;
+            var title = sandwich.title;
             var serves = sandwich.serves;
 
-        	$(".foot_6").append('<div class="sandwich"><img src="images/catering/'+image+'"><h3>'+title+" $"+price+'</h3><p>'+description+'</p><p>'+serves+'</p></div>');
+            $(".foot_6").append('<div class="sandwich"><img src="images/catering/'+image+'"><h3>'+title+" $"+price+'</h3><p>'+description+'</p><p>'+serves+'</p></div>');
         }
 
         //sandwich_wraps_platters
@@ -108,4 +96,3 @@ $(document).ready(function(){
     });
 
 });
-
