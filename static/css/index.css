@@ -99,6 +99,7 @@ body{
 .nav-link:hover {
 	border-bottom: solid 3px red;
 	color:#000;
+	transition: all 0.1s;
 }
 
 .nav-link-active{
