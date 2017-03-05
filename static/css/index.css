@@ -10,7 +10,7 @@ body{
 }
 
 .intro{
-    background-image: url("http://az616578.vo.msecnd.net/files/2016/10/17/636122739856255638-1137033243_Big-data-Exhaustive-review-pulls-together-evidence-on-food-groups-and-diet-related-disease.jpg");
+	background: url(../images/b.png) no-repeat bottom center scroll;
 	background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -34,22 +34,15 @@ body{
 .nav-bar{
 	width: 100%;
 	position: fixed;
-	font-size:12px;
 	letter-spacing:2px;
 	z-index: 10;
 	margin: auto;
-	padding: 20px;
+	padding: 10px;
 	text-align: center;
 }
 
 .nav-bar-background{
-
-	background-color: #FFF;
-
-	-webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
-	box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
-
+	background-color: #fff;
 	-webkit-transition: all 0.25s ease;
     -moz-transition: all 0.25s ease;
     -o-transition: all 0.25s ease;
@@ -98,8 +91,14 @@ body{
 
 .nav-link{
 	margin-right: 50px;
-	font-size: 24px;
+	font-size: 16px;
+	letter-spacing:3px;
 	color: #000;
+}
+
+.nav-link:hover {
+	border-bottom: solid 3px red;
+	color:#000;
 }
 
 .nav-link-active{
@@ -110,7 +109,9 @@ body{
 
 .header-text{
 	text-align: center;
-	font-family: 'Indie Flower', cursive;
+	font-family: "Montserrat";
+	font-weight:bold;
+	letter-spacing:2px;
 	font-size: 30px;
 	color: #fff;
 }
