@@ -10,7 +10,7 @@ body{
 }
 
 .intro{
-	background: url(../images/a.png) no-repeat bottom center scroll;
+	background: url(../images/a.png) repeat bottom center scroll;
 	background-size: cover;
     background-attachment: fixed;
     background-position: center;
