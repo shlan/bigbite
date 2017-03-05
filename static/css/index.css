@@ -113,7 +113,6 @@ body{
 	letter-spacing:2px;
 	font-size: 30px;
 	color: #fff;
-	
 }
 
 .side-lines {
@@ -223,10 +222,16 @@ body{
 
 /* FOOTER */
 .footer{
-	color: #FFF;
+	/*color: #FFF;
 	background-color: #3c3c3c;
 	text-align: center;
-	margin: auto;
+	margin: auto;*/
+	color: #000;
+    background: #eee;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 11vw;
 
 }
 .footer-left{
@@ -333,8 +338,12 @@ body{
 }
 
 .about-right{
+	font-size:18px;
 	vertical-align: top;
 	display: inline-block;
+	margin-left: 30px;
+	text-align: left;
+	width: 400px;
 }
 
 /* CONTACT PAGE PAGE */
