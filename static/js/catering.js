@@ -32,7 +32,7 @@ $(document).ready(function(){
         	var title = sandwich.title;
             var serves = sandwich.serves;
 
-        	$(".foot_6").append('<div class="sandwich"><img src="images/menu/'+image+'"><h3>'+title+" $"+price+'</h3><p>'+description+'</p><p>'+serves+'</p></div>');
+        	$(".foot_6").append('<div class="sandwich"><img src="images/catering/'+image+'"><h3>'+title+" $"+price+'</h3><p>'+description+'</p><p>'+serves+'</p></div>');
         }
 
         //sandwich_wraps_platters
@@ -46,7 +46,7 @@ $(document).ready(function(){
             var title = sandwich.title;
             var serves = sandwich.serves;
 
-            $(".sandwich_wraps_platters").append('<div class="sandwich"><img src="images/menu/'+image+'"><h3>'+title+" $"+price+'</h3><p>'+description+'</p><p>'+serves+'</p></div>');
+            $(".sandwich_wraps_platters").append('<div class="sandwich"><img src="images/catering/'+image+'"><h3>'+title+" $"+price+'</h3><p>'+description+'</p><p>'+serves+'</p></div>');
         }
 
         //lunch_boxes
@@ -60,7 +60,7 @@ $(document).ready(function(){
             var title = sandwich.title;
             var serves = sandwich.serves;
 
-            $(".lunch_boxes").append('<div class="sandwich"><img src="images/menu/'+image+'"><h3>'+title+" $"+price+'</h3><p>'+description+'</p><p>'+serves+'</p></div>');
+            $(".lunch_boxes").append('<div class="sandwich"><img src="images/catering/'+image+'"><h3>'+title+" $"+price+'</h3><p>'+description+'</p><p>'+serves+'</p></div>');
         }
 
         //breakfast_platters
@@ -74,7 +74,7 @@ $(document).ready(function(){
             var title = sandwich.title;
             var serves = sandwich.serves;
 
-            $(".breakfast_platters").append('<div class="sandwich"><img src="images/menu/'+image+'"><h3>'+title+" $"+price+'</h3><p>'+description+'</p><p>'+serves+'</p></div>');
+            $(".breakfast_platters").append('<div class="sandwich"><img src="images/catering/'+image+'"><h3>'+title+" $"+price+'</h3><p>'+description+'</p><p>'+serves+'</p></div>');
         }
 
         //Party_Platters
@@ -88,7 +88,7 @@ $(document).ready(function(){
             var title = sandwich.title;
             var serves = sandwich.serves;
 
-            $(".Party_Platters").append('<div class="sandwich"><img src="images/menu/'+image+'"><h3>'+title+" $"+price+'</h3><p>'+description+'</p><p>'+serves+'</p></div>');
+            $(".Party_Platters").append('<div class="sandwich"><img src="images/catering/'+image+'"><h3>'+title+" $"+price+'</h3><p>'+description+'</p><p>'+serves+'</p></div>');
         }
 
         //Beverage_Packages
@@ -102,7 +102,7 @@ $(document).ready(function(){
             var title = sandwich.title;
             var serves = sandwich.serves;
 
-            $(".Beverage_Packages").append('<div class="sandwich"><img src="images/menu/'+image+'"><h3>'+title+" $"+price+'</h3><p>'+description+'</p><p>'+serves+'</p></div>');
+            $(".Beverage_Packages").append('<div class="sandwich"><img src="images/catering/'+image+'"><h3>'+title+" $"+price+'</h3><p>'+description+'</p><p>'+serves+'</p></div>');
         }
 
     });
