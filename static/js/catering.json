@@ -139,8 +139,9 @@
         },
         {
             "id":"",
-            "title": "All trays include: Romaine lettuce, pepperoncinis, onion, tomato, and cucumbers. Choice of grilled chicken, greek, tuna, or caesar salad.",
-            "image": "",
+            "title": "Salad Tray (Choice of Chicken, Tuna, Greek or Ceasar)",
+            "image": "saladtray.jpg",
+            "description": "All trays include: Romaine lettuce, pepperoncinis, onion, tomato, and cucumbers. Choice of grilled chicken, greek, tuna, or caesar salad.",
             "serves": "Serves 10-15 people",
             "price": "29.99",
             "special": "Macaroni salad, potato salad, pasta salad, and coleslaw available upon request."
