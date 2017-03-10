@@ -108,24 +108,24 @@
     "breakfast": [
         {
             "id": "",
-            "title": "Bagel with Cream",
+            "title": "Bagel with Cream Cheese",
             "image": "DSC_8323.jpg",
-            "description": " ",
+            "description": "Your choice of bagel with cream cheese.",
             "price": "2.75"
         },
         {
             "id": "",
             "title": "Bagel with Eggs and Bacon",
-            "description": "",
+            "description": "Plain bagel with eggs, bacon, and cheeese.",
             "image": "2brackfastbegel.jpg",
             "price": "4.99"
 
         },
         {
             "id": "",
-            "title": "Croissant",
+            "title": "Breakfast Croissant",
             "image": "DSC_8335.jpg",
-            "description": "",
+            "description": "Toasted croissant with eggs, sausage, and cheese.",
             "price": "4.99"
 
         },
@@ -133,15 +133,15 @@
             "id": "",
             "title": "English Muffin",
             "image": "1muffen.jpg",
-            "description": " ",
+            "description": "English Muffin with eggs, ham, and cheese.",
             "price": "3.49"
 
         },  
          {
             "id": "",
             "title": "Breakfast Burrito",
-            "image": "1muffen.jpg",
-            "description": "With egg and cheese and potato and choice of ham, sausage, or bacon.",
+            "image": "breakfastburrito.jpg",
+            "description": "Eggs, cheese, and potato with your choice of ham, sausage, or bacon wrapped in a tortilla.",
             "price": "5.99"
 
         }                   
