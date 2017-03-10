@@ -9,6 +9,10 @@ body{
 	font-family: "Montserrat";
 }
 
+img { 
+   border:1px solid #021a40;
+}
+
 .side-lines span {
 	letter-spacing:2px;
 	font-weight:bold;
