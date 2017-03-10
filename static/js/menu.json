@@ -25,7 +25,7 @@
         },
         {
             "id": "",
-            "title": "The Poineer Special",
+            "title": "The Pioneer Special",
             "image": "1pioneer.jpg",
             "description": "Roast beef, salami, pepper jack cheese. ",
             "price": "5.99"            
@@ -39,7 +39,7 @@
         },
         {
             "id": "",
-            "title": "Vegetrian",
+            "title": "Vegetarian",
             "image": "6vegi.jpg",
             "description": "Avocado, cheddar, Swiss, pepper jack cheese. ",
             "price": "5.99"            
@@ -79,7 +79,7 @@
             "id": "",
             "title": "Reuben",
             "image": "11reuben.jpg",
-            "description": "Pastrami, sauerkraut, Swiss. Thousand island, dijon mustard, pickles.",
+            "description": "Pastrami, sauerkraut, Swiss, Thousand Island, dijon mustard, pickles.",
             "price": "5.99"            
         },                
         {
@@ -108,14 +108,14 @@
     "breakfast": [
         {
             "id": "",
-            "title": "Bagel with Cream Cheese",
+            "title": "Bagel - Cream Cheese",
             "image": "DSC_8323.jpg",
             "description": "Your choice of bagel with cream cheese.",
             "price": "2.75"
         },
         {
             "id": "",
-            "title": "Bagel with Eggs and Bacon",
+            "title": "Bagel - Eggs and Bacon",
             "description": "Plain bagel with eggs, bacon, and cheeese.",
             "image": "2brackfastbegel.jpg",
             "price": "4.99"
