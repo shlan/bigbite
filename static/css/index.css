@@ -2,13 +2,18 @@ html, body{
 	margin-top: 0px;
 	margin: auto;
 	width: 100%;
-	background-color: #FFF;
+	background-color: #f7f7f7;
 }
 
 body{
 	font-family: "Montserrat";
 }
 
+.side-lines span {
+	letter-spacing:2px;
+	font-weight:bold;
+	color: #e5462f;
+}
 .intro{
 	background: url(../images/a.png) repeat bottom center scroll;
 	background-size: cover;
@@ -42,7 +47,7 @@ body{
 }
 
 .nav-bar-background{
-	background-color: #fff;
+	background-color: #f7f7f7;
 	-webkit-transition: all 0.25s ease;
     -moz-transition: all 0.25s ease;
     -o-transition: all 0.25s ease;
@@ -54,7 +59,7 @@ body{
 	padding: 20px;
 	position: fixed;
 
-	background-color: #FFF;
+	background-color: #f7f7f7;
 	z-index: 10;
 
 	-webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
@@ -117,7 +122,7 @@ body{
 }
 
 span.highlight {
-	background:#fff;
+	background:#f7f7f7;
 }
 
 
@@ -132,7 +137,7 @@ span.highlight {
 
 .call-now span {
 	color:#e5462f;
-	background: #fff;
+	background: #f7f7f7;
 	padding: 0 15px;
 	position: relative;
 	z-index: 1;
@@ -149,7 +154,7 @@ span.highlight {
 }
 
 .side-lines span {
-	background: #fff;
+	background: #f7f7f7;
 	padding: 0 15px;
 	position: relative;
 	z-index: 1;
