@@ -79,13 +79,13 @@ $(document).ready(function(){
         	$(".soup_and_salad").append('<div class="sandwich"><img src="images/menu/'+image+'"><h3>'+title+" $"+price+'</h3><p>'+description+'</p></div>');
         }
 
-        //
+        // extras
         for(var i = 0; i < data.sides_and_extras.length; i++){
 
         	var sandwich = data.sides_and_extras[i];
         	var id = sandwich.id;
         	var description = sandwich.description;
-        	var image = sandwich.image;
+        	//var image = sandwich.image;
         	var price = sandwich.price;
         	var title = sandwich.title;
 
