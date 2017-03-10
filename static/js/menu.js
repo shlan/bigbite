@@ -23,7 +23,7 @@ $(document).ready(function(){
 	$.getJSON("js/menu.json", function(data){
 
 		//menu_sandwich_cold
-		$(".sandwiches").append('<h1>Cold sandwiches</h1>');
+		$(".sandwiches").append('<h1>Cold Sandwiches</h1>');
         for(var i = 0; i < data.menu_sandwich_cold.length; i++){
 
         	var sandwich = data.menu_sandwich_cold[i];
@@ -39,7 +39,7 @@ $(document).ready(function(){
 
         //menu_sandwich_hot
 
-        $(".sandwiches").append('<h1>Hot sandwiches</h1>');
+        $(".sandwiches").append('<h1>Hot Sandwiches</h1>');
 
         for(var i = 0; i < data.menu_sandwich_hot.length; i++){
 
