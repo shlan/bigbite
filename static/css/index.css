@@ -9,6 +9,11 @@ body{
 	font-family: "Montserrat";
 }
 
+.side-lines span {
+	letter-spacing:2px;
+	font-weight:bold;
+	color: #e5462f;
+}
 .intro{
 	background: url(../images/a.png) repeat bottom center scroll;
 	background-size: cover;
