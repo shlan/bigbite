@@ -152,14 +152,14 @@
             "id": "",
             "title": "Regular Green Salad",
             "image": "DSC_8323.jpg",
-            "description": " ",
+            "description": "Salad with garlic pita, lettuce, cucumber, pepperonchini, tomato, onion, olives, and choice of dressing (ranch, Italian, Greek, balsamic, 1000 island, oil and vinegar, blue cheese).",
             "price": "4.99"
         },
         {
             "id": "",
             "title": "Chef Salad",
             "image": "2brackfastbegel.jpg",
-            "description": "Cheddar cheese, egg, bacon, and ham. ",
+            "description": "Salad with cheddar cheese, egg, bacon, and ham. Comes with garlic pita, lettuce, cucumber, pepperonchini, tomato, onion, olives, and choice of dressing.",
             "price": "6.99"
 
         },
@@ -167,7 +167,7 @@
             "id": "",
             "title": "Grilled Chicken Salad",
             "image": "DSC_8335.jpg",
-            "description": " ",
+            "description": "Grilled Chicken salad with garlic pita and your choice of dressing.",
             "price": "5.99"
 
         },
@@ -175,7 +175,7 @@
             "id": "",
             "title": "Greek Salad",
             "image": "1muffen.jpg",
-            "description": "Salad with feta cheese. ",
+            "description": "Salad with feta cheese, garlic pita, and your choice of dressing.",
             "price": "5.99"
 
         },
@@ -183,14 +183,14 @@
             "id": "",
             "title": "Tuna Salad",
             "image": "1muffen.jpg",
-            "description": " ",
+            "description": "Tuna salad with garlic pita and your choice of dressing.",
             "price": "5.99"
         },
         {
             "id": "",
             "title": "Soup of The Day",
             "image": "1muffen.jpg",
-            "description": " ",
+            "description": "Ask for our soup of the day!",
             "price": "3.49"
         }             
 
@@ -200,7 +200,6 @@
          {
             "id": "",
             "title": "Dirty Chips",
-            "image": "",
             "description": " ",
             "price": "0.99"
 
@@ -208,14 +207,12 @@
         {
             "id": "",
             "title": "Potato Salad",
-            "image": "",
             "description": " ",
             "price": "1.49"
         },
         {
             "id": "",
             "title": "Macaroni Salad",
-            "image": "",
             "description": " ",
             "price": "1.49"
 
@@ -223,7 +220,6 @@
         {
             "id": "",
             "title": "Deviled Eggs",
-            "image": "",
             "description": " ",
             "price": "1.49"
 
