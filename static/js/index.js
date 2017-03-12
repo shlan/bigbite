@@ -19,16 +19,32 @@ $(document).ready(function(){
 		
 	});
 
-	/*
+	
 	$(window).on('scroll', function() {
+
 		var divPosition = $(".scroll-to").offset().top;
+
+		var highlightPosition = $(".highlight").offset().top;
+
 		var scrollPosition = window.scrollY;
+
     	if(scrollPosition >= divPosition){
+
         	$('.nav-bar').addClass('nav-bar-background');
+
     	}else{
+
     		$('.nav-bar').removeClass('nav-bar-background');
     	}
+
+    	if(scrollPosition > highlightPosition && scrollPosition < highlightPosition + $(".highlight").height()){
+    		$('.nav-bar').addClass('nav-bar-background');
+    	}
+
+
 	});
-	*/
+
+
+	
 });
 
