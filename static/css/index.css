@@ -91,7 +91,7 @@ html {
 }
 
 .mobile-nav-bar a .mobile-nav-link-active{
-	color: #e5462f;
+	color: #EF4836;
 }
 
 span {
@@ -106,10 +106,8 @@ a {
 	color:#000;
 }
 
-a:hover {
-	color:#000;
-	border-bottom: solid 3px #e5462f;
-	transition: all 0.2s;
+p a:hover {
+	color:#EF4836;
 }
 
 
@@ -128,6 +126,9 @@ a:hover {
 	margin-right: 50px;
 }
 
+.img-nav-link:hover {
+	text-decoration:none;
+}
 
 .nav-link:hover {
 	color:#000;
