@@ -45,9 +45,9 @@ html {
     -o-transition: all 0.15s ease;
     transition: all 0.15s ease;
 
-    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+    /*-webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
-	box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+	/*box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);*/
 }
 
 .nav-bar-background a{
@@ -93,6 +93,22 @@ html {
 	color: #e5462f;
 }
 
+p {
+	line-height:150%;
+}
+
+a {
+	text-decoration:none;
+	color:#000;
+}
+
+a:hover {
+	color:#000;
+	border-bottom: solid 3px #e5462f;
+	transition: all 0.2s;
+}
+
+
 .nav-bar a{
 	text-decoration: none;
 }
@@ -108,16 +124,17 @@ html {
 	margin-right: 50px;
 }
 
+
 .nav-link:hover {
-	border-bottom: solid 3px #e5462f;
 	color:#000;
+	border-bottom: solid 3px #EF4836;
 	transition: all 0.2s;
 }
 
 .nav-link-active{
 	border-bottom-style: solid;
 	border-bottom-width: 3px;
-	border-bottom-color: #e5462f;
+	border-bottom-color: #EF4836;
 }
 
 .header-text{
@@ -128,16 +145,21 @@ html {
     margin: auto;
 }
 
+.red {
+	color:#EF4836;
+}
 .highlight{
+	letter-spacing:2px;
+	line-height:120%;
 	position: absolute;
 	top: 50%;
 	width: 100%;
 	text-align: center;
     margin: auto;
     display: block;
-	text-shadow: 2px 2px 50px #FFF;
-	-webkit-filter: drop-shadow(5px 5px 20px rgba(0,0,0,0.9));
-  	filter: drop-shadow(5px 5px 20px rgba(0,0,0,0.9));
+	text-shadow: 3px 3px 50px #FFF;
+	-webkit-filter: drop-shadow(5px 5px 30px rgba(0,0,0,1));
+  	filter: drop-shadow(5px 5px 20px rgba(0,0,0,1));
   	color: white;
 }
 
@@ -190,7 +212,7 @@ html {
 
 .side-lines:before {
 	position: absolute;
-	background: #e5462f;
+	background: #EF4836;
 	content: "";
 	display: block;
 	height: 3px;
@@ -457,7 +479,7 @@ html {
 	display: inline-block;
 	margin-left: 30px;
 	text-align: left;
-	width: 400px;
+	width: 500px;
 }
 
 /* CONTACT PAGE PAGE */
