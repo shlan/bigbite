@@ -157,7 +157,10 @@ p a:hover {
 .red {
 	color:#EF4836;
 }
+
 .highlight{
+	text-shadow: 2px 2px black;
+	font-size:30px;
 	letter-spacing:2px;
 	line-height:120%;
 	position: absolute;
@@ -166,7 +169,7 @@ p a:hover {
 	text-align: center;
     margin: auto;
     display: block;
-	text-shadow: 3px 3px 50px #FFF;
+	/*text-shadow: 3px 3px 50px #FFF;*/
 	-webkit-filter: drop-shadow(5px 5px 30px rgba(0,0,0,1));
   	filter: drop-shadow(5px 5px 20px rgba(0,0,0,1));
   	color: white;
@@ -277,11 +280,19 @@ p a:hover {
 	margin: auto;
 }
 
+
+.contact-call{
+	text-align:center;
+	margin: auto;
+	font-size: 28px;
+	font-family: 'Patrick Hand', cursive;
+}
+
 .delivery{
 	margin: auto;
 	width: 400px;
 	font-size: 28px;
-	font-family: 'Indie Flower', cursive;
+	font-family: 'Patrick Hand', cursive;
 }
 
 .delivery-information-left{
@@ -509,6 +520,7 @@ p a:hover {
 /* MOBILE */
 @media only screen and (max-width: 760px){
 
+	.web-highlight{display:none;}
   .nav-bar { display: none; }
   .mobile-header{visibility: visible;}
   .mobile-nav-bar{visibility: visible;}
