@@ -9,16 +9,6 @@ $(document).ready(function(){
         $(".mobile-nav-bar").slideToggle("slow");
     });
 
-    $(".down-arrow").click(function(e){
-
-        e.preventDefault();
-
-        $('html, body').animate({
-            scrollTop: $(".scroll-to").offset().top
-        }, 2000);
-        
-    });
-
 
 	$.getJSON("js/menu.json", function(data){
 
