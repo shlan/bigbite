@@ -37,7 +37,7 @@ $(document).ready(function(){
     		$('.nav-bar').removeClass('nav-bar-background');
     	}
 
-    	if(scrollPosition > highlightPosition && scrollPosition < highlightPosition + $(".highlight").height()){
+    	if(scrollPosition + $('.nav-bar').height() > highlightPosition && scrollPosition < highlightPosition + $(".highlight").height()){
     		$('.nav-bar').addClass('nav-bar-background');
     	}
 

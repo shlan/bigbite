@@ -4,18 +4,15 @@ html, body{
 	width: 100%;
 	background-color: #f7f7f7;
 	font-family: "Montserrat";
+	overflow-x: hidden;
 }
 
-html, body {
-  overflow-x: hidden;
+html {
+	position: relative;
+	min-height: 100%;
 }
 
-body {
-  position: relative;
-}
-
-
-.side-lines span {
+.side-lines span{
 	letter-spacing:2px;
 	font-weight:bold;
 	color: #e5462f;
@@ -38,14 +35,19 @@ body {
 	margin: auto;
 	padding: 10px;
 	text-align: center;
+	color: #FFF;
 }
 
 .nav-bar-background{
 	background-color: #f7f7f7;
-	-webkit-transition: all 0.25s ease;
-    -moz-transition: all 0.25s ease;
-    -o-transition: all 0.25s ease;
-    transition: all 0.25s ease;
+	-webkit-transition: all 0.15s ease;
+    -moz-transition: all 0.15s ease;
+    -o-transition: all 0.15s ease;
+    transition: all 0.15s ease;
+}
+
+.nav-bar-background a{
+	color: #000;
 }
 
 .mobile-header{
@@ -95,7 +97,7 @@ body {
 	margin-right: 50px;
 	font-size: 16px;
 	letter-spacing:3px;
-	color: #000;
+	color: #FFF;
 }
 
 .img-nav-link{
@@ -292,18 +294,16 @@ body {
 
 /* FOOTER */
 .footer{
-	/*color: #FFF;
-	background-color: #3c3c3c;
-	text-align: center;
-	margin: auto;*/
+	margin-top: 100px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+  
 	color: #000;
     background: #eee;
     text-align: center;
-    bottom: 0;
-    width: 100%;
-    height: 11vw;
-
 }
+
 .footer-left{
 	margin-top: 40px;
 	width: 400px;
