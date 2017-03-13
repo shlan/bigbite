@@ -315,12 +315,14 @@ html {
 }
 
 .footer-left-logo{
-	vertical-align: top;
+	margin-right: 20px;
 	display: inline-block;
 	width: 150px;
 }
 
 .footer-left-info{
+	text-align: left;
+	vertical-align: middle;
 	display: inline-block;
 	width: 200px;
 }
