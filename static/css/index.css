@@ -1,15 +1,19 @@
-html, body{
+
+html {
+	margin-top: 0px;
+	margin: auto;
+	position: relative;
+	min-height: 100;
+	overflow-x: hidden;
+}
+
+body{
 	margin-top: 0px;
 	margin: auto;
 	width: 100%;
 	background-color: #f7f7f7;
 	font-family: "Montserrat";
 	overflow-x: hidden;
-}
-
-html {
-	position: relative;
-	min-height: 100%;
 }
 
 .side-lines span{
@@ -191,7 +195,7 @@ p a:hover {
 }
 
 .call-now span {
-	color:#e5462f;
+	color:#EF4836;
 	background: #f7f7f7;
 	padding: 0 15px;
 	position: relative;
@@ -468,6 +472,7 @@ p a:hover {
 
 .about{
 	text-align: center;
+	margin-bottom:100px;
 }
 
 .about img{
@@ -491,7 +496,8 @@ p a:hover {
 /* CONTACT PAGE PAGE */
 
 .contact{
-	margin: auto;
+	margin:auto;
+	margin-bottom:50px;
 	text-align: middle;
 }
 
