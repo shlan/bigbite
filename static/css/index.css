@@ -502,4 +502,7 @@ html {
   .about img{width: 100%;}
   .about-right{margin-left: 0px; margin-top: 20px; width: 100%;}
 
+  .contact{width: 90%;}
+  .contact form{width: 100%;}
+
 }
