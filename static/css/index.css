@@ -496,6 +496,8 @@ html {
   .sandwich{width: 90%; margin-left: 5%; margin-right: 5%;}
 
   /* about */
-  .about img{}
+  .about{width: 90%; margin: auto;}
+  .about img{width: 100%;}
+  .about-right{margin-left: 0px; margin-top: 20px; width: 100%;}
 
 }
