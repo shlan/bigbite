@@ -621,12 +621,12 @@ p.menu-list__item-desc {
 }
 
 .about-intro{
-	background: url(../images/about/sandwich1copy.jpg) repeat bottom center scroll;
+	/*background: url(../images/about/sandwich1copy.jpg) repeat bottom center scroll;*/
 	width: 100%;
 	background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    min-height: 75vh;
+    /*min-height: 75vh;*/
     background-repeat: no-repeat;
 }
 
