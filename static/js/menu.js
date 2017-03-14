@@ -57,7 +57,7 @@ $(document).ready(function(){
         }
 
         // soup and salad
-        for(var i = 0; i < data.soup_and_salad.length; i++){
+        /*for(var i = 0; i < data.soup_and_salad.length; i++){
 
         	var sandwich = data.soup_and_salad[i];
         	var id = sandwich.id;
@@ -80,7 +80,7 @@ $(document).ready(function(){
         	var title = sandwich.title;
 
         	$(".sides_and_extras").append('<div class="sandwich"><img src="images/menu/'+image+'"><h3>'+title+" $"+price+'</h3><p>'+description+'</p></div>');
-        }
+        }*/
 
 
     });
