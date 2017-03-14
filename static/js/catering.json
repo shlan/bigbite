@@ -4,7 +4,7 @@
             "id": "",
             "title": "6-Foot Giant Sandwiches",
             "image": "6foot.jpg",
-            "description":"Designed to fill any sized appetite!<br />Served with your choice of meat & cheese, lettuce, tomato, onion, mayo, and mustard.",
+            "description":"Designed to fill any sized appetite! Served with your choice of meat & cheese, lettuce, tomato, onion, mayo, and mustard.",
             "serves": "Serves: 14-26 people",
             "price": "79.99"
         }
@@ -16,7 +16,7 @@
             "id": "",
             "title": "Sandwich Platter - 18&#34",
             "image": "sandwich1.jpg",
-            "description": "21 three-inch rolls.<br />Meat: choice of ham, hard salami, turkey, roast beef or tuna.<br />Cheese: swiss, cheddar, provolone, pepper jack, or mozzarella.",
+            "description": "21 three-inch rolls with your choice of meat and cheese.<br />Meat: ham, hard salami, turkey, roast beef or tuna.<br />Cheese: swiss, cheddar, provolone, pepper jack, or mozzarella.",
             "serves": "Serves: 13-18 people",
             "price": "47.99",
             "special": "Smaller size available"
@@ -25,7 +25,7 @@
             "id": "",
             "title": "Wraps Platter",
             "image": "wraps.jpg",
-            "description": "Your choice of Spinach or Spicy Tomato wrap. Choice of ham, hard salami, turkey, roast beef, tuna. Served with your choice of cheddar, provolone, or swiss cheese. Lettuce, tomato, mayo, and mustard included.",
+            "description": "Spinach or Spicy Tomato wrap. Choice of ham, hard salami, turkey, roast beef, or tuna. Comes with cheddar, provolone, or swiss cheese. Lettuce, tomato, mayo, and mustard included.",
             "serves": "Serves: 18-24 people",
             "price": "58.99"
         }
