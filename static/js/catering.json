@@ -44,7 +44,7 @@
             "id": "",
             "title": "Deluxe Box",
             "image": "deluxebox.jpg",
-            "description": "Your choice of white, wheat, sourdough, or rye bread. Your choice of ham, turkey, hard salami, or roast beef. Served with your choice of cheddar, provolone, or swiss cheese. Lettuce, tomato, mayo, and mustard included. Also included per box: Side of potato salad, macaroni salad, or coleslaw. Bag of potato chips, cookie, and a soda.",
+            "description": "Your choice of white, wheat, sourdough, or rye bread. Choice of ham, turkey, hard salami, or roast beef. Served with your choice of cheese. Lettuce, tomato, mayo, and mustard included. Also included per box: Side of potato salad/macaroni salad/coleslaw. Bag of potato chips, cookie, and a soda.",
             "serves": "",
             "price": "8.49/box"
         },
@@ -60,7 +60,7 @@
             "id": "",
             "title": "Executive Box",
             "image": "executivebox.jpg",
-            "description": "Your choice of bread (white, wheat, sourdough, rye) or wrap (spinach, spicy tomato). Any special from the menu (see attached menu), a side of Greek salad, your choice between macaroni salad, potato salad, or coleslaw, bag of potato chips, candy, cookie, and a canned sooda.",
+            "description": "Your choice of bread (white, wheat, sourdough, rye) or wrap (spinach, spicy tomato). Any special from the menu (see attached menu), a side of Greek salad, your choice between macaroni salad/potato salad/coleslaw, bag of potato chips, candy, cookie, and soda.",
             "serves": "",
             "price": "12.99/box"
         }
@@ -72,7 +72,7 @@
             "id": "",
             "title": "Breakfast Box",
             "image": "breakfastbox.jpg",
-            "description": "A mini croissant loaded with scrambled eggs, cheese, and muffin or cookie.",
+            "description": "A mini croissant loaded with scrambled eggs, cheese, and ham/sausage/bacon. Also included: Apple/banana, plain/flavored yogurt, water/soda, and muffin/cookie.",
             "serves": "",
             "price": "8.99/box"
         },
@@ -80,7 +80,7 @@
             "id": "",
             "title": "Bagel Platter",
             "image": "bagelplatter.jpg",
-            "description": "Your choice between plain, jalapeno, cinnamon raisin, onion, or everythign bagels.",
+            "description": "Your choice between plain, jalapeno, cinnamon raisin, onion, or everything bagels.",
             "serves": "Serves: 14-22 people",
             "price": "34.99",
             "special": "Smaller size available. Packages of cream cheese included, butter & jellies also available."
