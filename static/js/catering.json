@@ -23,9 +23,9 @@
         },
         {
             "id": "",
-            "title": "Wraps Platter - Choice of Spinach or Spicy Tomato",
+            "title": "Wraps Platter",
             "image": "wraps.jpg",
-            "description": "Your choice of ham, hard salami, turkey, roast beef, tuna. Served with your choice of cheddar, provolone, or swiss cheese. Lettuce, tomato, mayo, and mustard included.",
+            "description": "Your choice of Spinach or Spicy Tomato wrap. Choice of ham, hard salami, turkey, roast beef, tuna. Served with your choice of cheddar, provolone, or swiss cheese. Lettuce, tomato, mayo, and mustard included.",
             "serves": "Serves: 18-24 people",
             "price": "58.99"
         }
@@ -36,7 +36,7 @@
             "id": "",
             "title": "Basic Box",
             "image": "basicbox.jpg",
-            "description": "Great for smaller parties and meetings or parties with BIG appetites. 4-5inch rolls served with your choice of ham, turkey, hard salami, roast beef, and cheese. Also included per box: Bag of potato chips and a canned soda.",
+            "description": "Great for smaller parties and meetings or parties with BIG appetites. 4-5inch rolls served with your choice of ham, turkey, hard salami, roast beef, and cheese. Also included per box: Bag of potato chips and a soda.",
             "serves": "",
             "price": "6.99/box"
         },
@@ -44,7 +44,7 @@
             "id": "",
             "title": "Deluxe Box",
             "image": "deluxebox.jpg",
-            "description": "Your choice of white, wheat, sourdough, or rye bread. Your choice of ham, turkey, hard salami, or roast beef. Served with your choice of cheddar, provolone, or swiss cheese. Lettuce, tomato, mayo, and mustard included. Also included per box: Small side of potato salad, macaroni salad, or coleslaw. Bag of potato chips, cookie, and a canned soda.",
+            "description": "Your choice of white, wheat, sourdough, or rye bread. Your choice of ham, turkey, hard salami, or roast beef. Served with your choice of cheddar, provolone, or swiss cheese. Lettuce, tomato, mayo, and mustard included. Also included per box: Side of potato salad, macaroni salad, or coleslaw. Bag of potato chips, cookie, and a soda.",
             "serves": "",
             "price": "8.49/box"
         },
@@ -52,7 +52,7 @@
             "id": "",
             "title": "Premium San Diego Beach Box",
             "image": "premiumbox.jpg",
-            "description": "A large croissant loaded with your choice of ham, turkey, hard salami, or roast beef. Lettuce, tomato, mayo, and mustard included. Also included per box: A side of hummus, bottle of water or a canned soda, bag of potato chips, cookie, and a side of caesar salad with Italian dressing.",
+            "description": "A large croissant loaded with your choice of ham, turkey, hard salami, or roast beef. Lettuce, tomato, mayo, and mustard included. Also included per box: Side of hummus, water/soda, bag of potato chips, cookie, and a side of caesar salad with Italian dressing.",
             "serves": "",
             "price": "11.99/box"
         },
@@ -72,7 +72,7 @@
             "id": "",
             "title": "Breakfast Box",
             "image": "breakfastbox.jpg",
-            "description": "A mini croissant loaded with scrambled eggs, cheese, and your choice of ham, sausage, or bacon. also included: A side of fruit (apple or banana), plain or flavor yogurt, water bottle or can of soda, and your choice between a muffin or a cookie.",
+            "description": "A mini croissant loaded with scrambled eggs, cheese, and muffin or cookie.",
             "serves": "",
             "price": "8.99/box"
         },
