@@ -61,6 +61,8 @@ body{
 }
 
 .mobile-header{
+	display: none;
+
 	width: 100%;
 	padding: 20px;
 	position: fixed;
@@ -80,6 +82,7 @@ body{
 
 .burger-menu{
 	float: right;
+	margin-top: 7px;
 }
 
 .mobile-nav-link{
@@ -461,7 +464,6 @@ p.menu-list__item-desc {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
-  
 	color: #000;
     background: #eee;
     text-align: center;
@@ -469,7 +471,7 @@ p.menu-list__item-desc {
 
 .footer-left{
 	margin-top: 40px;
-	width: 400px;
+	/*width: 400px;*/
 	display: inline-block;
 }
 
@@ -490,7 +492,7 @@ p.menu-list__item-desc {
 	margin-top: 40px;
 	display: inline-block;
 	vertical-align: top;
-	width: 400px;
+	/*width: 400px;*/
 	text-align: center;
 }
 
@@ -648,35 +650,36 @@ p.menu-list__item-desc {
 /* MOBILE */
 @media only screen and (max-width: 760px){
 
+	.nav-bar { display: none; }
+	.mobile-header{display: inline; visibility: visible;}
+	.mobile-nav-bar{visibility: visible;}
+
+	/*index*/
+	
 	.web-highlight{display:none;}
-  .nav-bar { display: none; }
-  .mobile-header{visibility: visible;}
-  .mobile-nav-bar{visibility: visible;}
+	.catering-information-left{width: 90%; margin-right: 0px;}
+  	.catering-information-left img{width: 100%;}
+  	.catering-information-right{width: 90%; margin-top: 15px;}
 
-  /*index*/
-  .catering-information-left{width: 90%; margin-right: 0px;}
-  .catering-information-left img{width: 100%;}
-  .catering-information-right{width: 90%; margin-top: 15px;}
+  	.map{width: 90%; margin-right: 0px;}
+  	.map iframe{width: 100%;}
+  	.address{width: 90%; margin-top: 15px;}
 
-  .map{width: 90%; margin-right: 0px;}
-  .map iframe{width: 100%;}
-  .address{width: 90%; margin-top: 15px;}
+  	.delivery-information{width: 90%; margin-right: 0px;}
 
-  .delivery-information{width: 90%; margin-right: 0px;}
+  	.find-us-online{width: 90%; margin: auto; margin-top: 20px;}
+  	.review{width: 100%; margin-right: 0px;}
+  	.instagram{width: 100%; margin-top: 20px;}
 
-  .find-us-online{width: 90%; margin: auto; margin-top: 20px;}
-  .review{width: 100%; margin-right: 0px;}
-  .instagram{width: 100%; margin-top: 20px;}
+  	/* menu */
+  	.sandwich{width: 90%; margin-left: 5%; margin-right: 5%;}
 
-  /* menu */
-  .sandwich{width: 90%; margin-left: 5%; margin-right: 5%;}
+  	/* about */
+  	.about{width: 90%; margin: auto;}
+  	.about img{width: 100%;}
+  	.about-right{margin-left: 0px; margin-top: 20px; width: 100%;}
 
-  /* about */
-  .about{width: 90%; margin: auto;}
-  .about img{width: 100%;}
-  .about-right{margin-left: 0px; margin-top: 20px; width: 100%;}
-
-  .contact{width: 90%;}
-  .contact form{width: 100%;}
+  	.contact{width: 90%;}
+  	.contact form{width: 100%;}
 
 }
